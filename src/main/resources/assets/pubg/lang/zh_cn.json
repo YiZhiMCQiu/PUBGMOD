@@ -13,5 +13,9 @@
     "text.sell.success": "出售成功, 收入%f",
     "itemGroup.pubg.items": "绝地求生：物品",
     "commands.sell.no_sellable_item": "There are no items to sell",
-    "broadcast.player_selled_item": "%s出售了一个物品! 价格: §6%d§r, 当前总收入: §6§l%d"
+    "broadcast.player_selled_item": "%s出售了一个物品! 价格: §6%d§r, 当前总收入: §6§l%d",
+    "gun_types.level.1": "§7破损 +%f§7攻击伤害",
+    "gun_types.level.2": "§a修复 +%f§a攻击伤害",
+    "gun_types.level.3": "§5卓越 +%f§5攻击伤害",
+    "gun_types.level.4": "§6精致 +%f§6攻击伤害"
 }
