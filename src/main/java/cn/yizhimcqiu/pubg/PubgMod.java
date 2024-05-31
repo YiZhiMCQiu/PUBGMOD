@@ -21,17 +21,18 @@ public class PubgMod {
     public static final String MODID = "pubg";
     public static final Logger LOGGER = LogUtils.getLogger();
     public PubgMod() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        modEventBus.addListener(this::commonSetup);
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+        bus.addListener(this::commonSetup);
 
-        ModItems.ITEMS.register(modEventBus);
-        ModBlocks.BLOCKS.register(modEventBus);
-        ModEntityTypes.ENTITY_TYPES.register(modEventBus);
-        ModTabs.TABS.register(modEventBus);
+        ModItems.ITEMS.register(bus);
+        ModBlocks.BLOCKS.register(bus);
+        ModEntityTypes.ENTITY_TYPES.register(bus);
+        ModTabs.TABS.register(bus);
+        ModAttributes.ATTRIBUTES.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
-        modEventBus.addListener(this::registerRenderers);
+        bus.addListener(this::addCreative);
+        bus.addListener(this::registerRenderers);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

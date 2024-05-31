@@ -9,6 +9,6 @@ import java.util.Map;
 public class ItemPrices {
     public static final Map<Item, Double> PRICES = new HashMap<>();
     static {
-        PRICES.put(ModItems.GOLD_BRICK.get(), (double) (500000 / 10000));
+        PRICES.put(ModItems.GOLD_BRICK.get(), 500000d);
     }
 }

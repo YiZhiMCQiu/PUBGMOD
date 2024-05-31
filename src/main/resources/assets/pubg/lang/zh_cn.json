@@ -10,7 +10,8 @@
     "gun_types.attribute.shot_interval": "§7射击间隔：%s",
     "gun_types.attribute.attack_damage": "§7攻击伤害：%f+%f",
     "gun_types.attribute.range": "§7射程: %s§7m",
-    "text.sell.success": "出售成功, 收入%fw",
+    "text.sell.success": "出售成功, 收入%f",
     "itemGroup.pubg.items": "绝地求生：物品",
-    "commands.sell.no_sellable_item": "There are no items to sell"
+    "commands.sell.no_sellable_item": "There are no items to sell",
+    "broadcast.player_selled_item": "%s出售了一个物品! 价格: §6%d§r, 当前总收入: §6§l%d"
 }

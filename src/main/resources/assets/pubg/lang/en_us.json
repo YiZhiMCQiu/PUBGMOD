@@ -10,7 +10,8 @@
     "gun_types.attribute.shot_interval": "§7Shot Interval: %s",
     "gun_types.attribute.attack_damage": "§7Attack Damage: %f+%f",
     "gun_types.attribute.range": "§7Range: %s§7m",
-    "text.sell.success": "The sale was successful, with an income of %fw",
+    "text.sell.success": "The sale was successful, with an income of %f",
     "itemGroup.pubg.items": "PUBG: Items",
-    "commands.sell.no_sellable_item": "There are no items to sell"
+    "commands.sell.no_sellable_item": "There are no items to sell",
+    "broadcast.player_selled_item": "%sselled a item! price: §6%d§r, now money: §6§l%d"
 }

@@ -21,6 +21,6 @@ public class ModTabs {
         output.accept(ModItems.BULLET.get());
         output.accept(ModItems.TEST_GUN.get());
         output.accept(ModItems.TEST_SNIPER_GUN.get());
-        output.accept(ModItems.BUSHES.get());
+        // output.accept(ModItems.BUSHES.get());
     }
 }
