@@ -47,7 +47,8 @@ public class GunItem extends Item {
     }
     private void shoot(Level level, Player player, ItemStack stack) {
         HitUtil.getTargetedEntity(player, this.type.getRange()).ifPresent((entity) -> {
-            if (HitUtil.hasNoBlockInTheRayWay(player, entity)) {
+            boolean unCheckHit = true;
+            if (unCheckHit || HitUtil.hasNoBlockInTheRayWay(player, entity)) {
                 entity.hurt(player.damageSources().playerAttack(player), this.getAttackDamage(stack));
             }
         });

@@ -14,13 +14,15 @@ authors="YiZhiMCQiu"
 description='''
 Author: YiZhiMCQiu
 《我的世界：绝地求生》！
-版本: 1.1.2
-服务器版本: 1.1.2
+版本: 1.1.2ER
+服务器版本: 1.1.2ER
 
+此次更新为ER(Emergency repairs)
 主要更新/修复:
 1.添加了品质系统，品质更高的武器可以增加伤害，同时创造模式物品栏的枪械品质默认被设置为精致
 
 2.修复了在开发版本中查看老版本枪械的描述时客户端崩溃的bug
+ER | 3.修复了枪械添加穿墙判定时近战不稳定的bug。现在穿墙判定已被移除
 '''
 [[dependencies.pubg]]
     modId="forge"
