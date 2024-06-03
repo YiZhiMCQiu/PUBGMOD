@@ -17,5 +17,6 @@
     "gun_types.level.1": "§7Breakage +%f §7Attack Damage",
     "gun_types.level.2": "§aFixed +%f §aAttack Damage",
     "gun_types.level.3": "§5Excellence +%f §5Attack Damage",
-    "gun_types.level.4": "§6Exquisite +%f §6Attack Damage"
+    "gun_types.level.4": "§6Exquisite +%f §6Attack Damage",
+    "medicine.cant_eat": "\\u00a7cThe item cannot be used when the health is higer than %s"
 }

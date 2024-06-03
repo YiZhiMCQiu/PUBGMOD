@@ -1,8 +1,10 @@
 package cn.yizhimcqiu.pubg;
 
 import cn.yizhimcqiu.pubg.registries.*;
+import cn.yizhimcqiu.pubg.verify.UUIDVerify;
 import com.mojang.logging.LogUtils;
 import cpw.mods.jarhandling.impl.Jar;
+import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -48,6 +50,7 @@ public class PubgMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
+            UUIDVerify.handle();
         }
     }
     private void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {

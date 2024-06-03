@@ -2,7 +2,7 @@
 ## A Minecraft Forge Mod
 ```Author: YiZhiMCQiu```<br>
 ```Version: 1.20.1```<br>
-### Mod Version: **1.1.2ER[1]**<br>
+Mod Version: **1.1.2ER[1]**<br>
 ### Server: ***47.243.96.125:16130***<br>
 ### Server Version: **1.1.2ER[1]**<br>
 ![icon](src/main/resources/icon.png "绝地求生")<br>

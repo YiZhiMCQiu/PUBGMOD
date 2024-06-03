@@ -127,7 +127,7 @@ public class GunItem extends Item {
         list.add(getHoverFromRarity(stack));
         list.add(this.type.getName());
         list.add(Component.translatable("gun_types.attribute.shot_interval", this.type.getShotInterval()));
-        list.add(Component.translatable("gun_types.attribute.attack_damage", this.type.getBaseDamage(), this.damageBonus));
+        list.add(Component.translatable("gun_types.attribute.attack_damage", this.type.getBaseDamage(), this.damageBonus+getDamageBonusFromRarity(stack)));
         list.add(Component.translatable("gun_types.attribute.range", this.type.getRange()));
     }
 
