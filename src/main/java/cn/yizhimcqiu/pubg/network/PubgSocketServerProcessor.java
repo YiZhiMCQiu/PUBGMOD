@@ -22,7 +22,7 @@ public class PubgSocketServerProcessor {
                 return in.readLine();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            PubgMod.LOGGER.error("cn.yizhimcqiu.pubg.network.PubgSocketServerProcessor.java:24: VerifyServer is not turned on, returned \"1\"");
             return "1";
         }
     }

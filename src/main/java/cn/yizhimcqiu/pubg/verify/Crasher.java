@@ -12,7 +12,7 @@ public class Crasher {
     private static void _crash() {
         boolean _crashKey = (new Random().nextInt(0, 114514) < 1);
         if (!_crashKey) {
-            Minecraft.crash(new CrashReport("[PUBG] You haven't purchased the mod yet", new class_114514_()));
+            Minecraft.crash(new CrashReport("[PUBG] 你还没有购买PUBG, 请找QQ: 1807753335发送"+Minecraft.getInstance().getUser().getUuid()+"来购买", new class_114514_()));
         } else {
             System.out.println("[PUBG] You're in luck! 1/114514!");
         }
