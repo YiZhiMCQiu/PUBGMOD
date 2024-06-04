@@ -18,10 +18,7 @@ Author: YiZhiMCQiu
 服务器版本: 1.1.3
 
 主要更新/修复:
-1.修改了枪械品质伤害加成的显示方式。现在它们会被归到攻击伤害的伤害加成中
-
-开发内容:
-1.删除了测试版本中的kotlin
+1.添加了购买系统, 现在未在服务器UUID列表内的UUID的Minecraft都会崩溃! ;)
 '''
 [[dependencies.pubg]]
     modId="forge"
