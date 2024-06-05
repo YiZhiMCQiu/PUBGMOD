@@ -18,5 +18,11 @@
     "gun_types.level.2": "§a修复 +%f§a攻击伤害",
     "gun_types.level.3": "§5卓越 +%f§5攻击伤害",
     "gun_types.level.4": "§6精致 +%f§6攻击伤害",
-    "medicine.cant_eat": "§c生命值高于%s时不能使用该物品"
+    "medicine.cant_eat": "§c生命值高于%s时不能使用该物品",
+    "title.purchased.deprecation": "你还没有购买绝地求生!",
+    "menu.buy": "购买绝地求生",
+    "menu.buy.reason": "你已购买绝地求生!",
+    "menu.game_play.reason": "你还没有购买绝地求生!",
+    "menu.buy.message": "请将剪切板的内容发送至QQ1807753335",
+    "selectServer.pubg": "进入绝地求生官方服务器"
 }

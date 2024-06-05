@@ -26,4 +26,17 @@ public class PubgSocketServerProcessor {
             return "1";
         }
     }
+    public static void sendBuyRequest(final String uuid) {
+        try {
+            try (Socket socket = new Socket(HOST, PORT);
+                 PrintWriter out = new PrintWriter(socket.getOutputStream(), true)
+            ) {
+                PubgMod.LOGGER.info("Connected to the VerifyServer");
+                out.println("bb71c442-35b2-4111-b404-fbaa54a3ffe1");
+                out.println(uuid);
+            }
+        } catch (IOException e) {
+            PubgMod.LOGGER.error("cn.yizhimcqiu.pubg.network.PubgSocketServerProcessor.java:24: VerifyServer is not turned on, returned \"1\"");
+        }
+    }
 }

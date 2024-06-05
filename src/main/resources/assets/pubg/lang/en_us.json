@@ -18,5 +18,11 @@
     "gun_types.level.2": "§aFixed +%f §aAttack Damage",
     "gun_types.level.3": "§5Excellence +%f §5Attack Damage",
     "gun_types.level.4": "§6Exquisite +%f §6Attack Damage",
-    "medicine.cant_eat": "\\u00a7cThe item cannot be used when the health is higer than %s"
+    "medicine.cant_eat": "\\u00a7cThe item cannot be used when the health is higer than %s",
+    "title.purchased.deprecation": "You have no purchased the PUBG!",
+    "menu.buy": "Buy PUBG",
+    "menu.buy.reason": "You have purchased the PUBG!",
+    "menu.game_play.reason": "You have no purchased the PUBG!",
+    "menu.buy.message": "Please send the contents of the clipboard to pikachu20130124@163.com",
+    "selectServer.pubg": "Join PUBG Server"
 }

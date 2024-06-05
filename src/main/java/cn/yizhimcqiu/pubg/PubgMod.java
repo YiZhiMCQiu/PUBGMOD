@@ -50,7 +50,7 @@ public class PubgMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            UUIDVerify.handle();
+
         }
     }
     private void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
